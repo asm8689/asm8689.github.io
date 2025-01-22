@@ -1,0 +1,176 @@
+h1 {
+    font-weight: 550;
+}
+
+h2 {
+    font-weight: 550;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-section {
+    display: inline-block;
+}
+
+.right {
+    justify-content: right;
+}
+
+.logo {
+    height: 40%;
+    vertical-align: middle;
+    padding-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.orange-border-button {
+    height: 80%;
+    border: 1px solid #f0652f;
+    background-color: transparent;
+    color:#f0652f;
+    border-radius: 10%;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.orange-border-button:hover {
+    border: none;
+    background-color: #f0652f;
+    color: white;
+    border-radius: 10%;
+}
+
+.orange-border-button:active {
+    border: none;
+    background-color: #f0652f;
+    color: white;
+    border-radius: 10%;
+    box-shadow: 0px 0px 2px 2px #f0652f;
+}
+
+header {
+    background-color: white;
+    height: 65px;
+    line-height: 50px;
+}
+
+body {
+    background-color: #f6f6ef;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: 50%;
+}
+
+.error {
+    background-color: #fae6e4;
+    color: #e3544b;
+    border: 0px transparent transparent;
+    border-radius: 10%;
+    height: 33%;
+}
+
+.error p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+form {
+    width: 55%;
+    margin-left: 12.5%;
+    padding-top: 25px;
+}
+
+.white-section {
+    background-color: white;
+    border: 1px solid lightgray;
+    height: 60px;
+    margin: auto;
+}
+
+.orange-fill-button {
+    border: none;
+    background-color:#f0652f;
+    color:white;
+    font-weight: bold;
+}
+
+.orange-fill-button:hover {
+    border: 1px solid #f0652f;
+    background-color: white;
+    color: #f0652f;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px 2px #f0652f;
+}
+
+.orange-fill-button:active {
+    border: 1px solid #f0652f;
+    background-color: lightsalmon;
+    color: #f0652f;
+    font-weight: bold;
+    box-shadow: 0px 0px 2px 2px #f0652f;
+}
+
+.rounded-section {
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin-top: 1rem;
+}
+
+.block-display {
+    display: inline-block;
+}
+
+label {
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 100%;
+    font-size: larger;
+    margin-top: 1rem;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset p {
+    padding: 5px;
+    margin: 0%;
+}
+
+.file-input {
+    margin-top: 1rem;
+}
+
+.red {
+    color: red;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+input[type="text"]{
+    display: block;
+    margin-top: 0.75rem;
+    width: 65%;
+    font-size: larger;
+    padding: 5px;
+}
+
+input[type="url"]{
+    display: block;
+    margin-top: 0.75rem;
+    width: 65%;
+    font-size: larger;
+    padding: 5px;
+}
