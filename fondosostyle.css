@@ -144,3 +144,74 @@ header {
     font-size: x-large;
     margin-top: 20px;
 }
+
+.divider {
+    height: 55px;
+    background-color: hsl(62, 96%, 74%);
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.divider p {
+    color:#0f2319;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+
+}
+
+.section-two {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.tagline {
+    color:#0f2319;
+    font-size: xxx-large;
+    font-family: Inter, sans-serif;
+    font-weight:normal;
+    padding-bottom: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 1000px;
+    margin: auto;
+    gap: 35px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 45%;
+    background-color: #eff5f3;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.item-top {
+    text-align: left;
+}
+
+.item h2, p, a {
+    font-family: Inter, sans-serif;
+}
+
+.item h2 {
+    font-weight: 500;
+}
+
+.item-top p {
+    font-size: larger;
+    width: 85%;
+    line-height: 30px;
+}
