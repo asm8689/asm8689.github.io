@@ -1,0 +1,146 @@
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.white {
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1a3732;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    height: 65px;
+}
+
+body {
+    margin: 0;
+}
+
+.right-header {
+    padding-right: 20px;
+    display: flex;
+    gap: 40px;
+    height: 100%;
+    align-items: center;
+}
+
+.left-header {
+    padding-left: 50px;
+}
+
+.header-button {
+    border: 0;
+    background-color: #1a3732;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.login {
+    height: 55%;
+    border-radius: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: background-color 0.3s;
+    transition: color 0.3s ease;
+}
+
+.login:hover {
+    border: 1px solid white;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: #ffffffcc;
+    color: #1a3732;
+}
+
+.yellow-button {
+    background-color: rgb(228,242,34);
+    color: #1a3732;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    height: 55%; 
+    border-radius: 7px;
+    border: 0;
+    transition: background-color 0.3s ease;
+}
+
+.yellow-button:hover {
+    background-color: #f8fc7c;
+}
+
+.header .yellow-button {
+    font-size:medium;
+}
+
+main {
+    margin: 0;
+}
+
+.landing {
+    background-color: #1a3732;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    margin: 0;
+    height: 700px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.left-landing {
+    padding-left: 50px;
+    width: 50%;
+}
+
+.right-landing {
+    width: 50%;
+    height: 75%;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.cap-table-img {
+    width:100%;
+    height: auto;
+}
+
+h1 {
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+header {
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 0.5px solid hsl(169,35%,10%);
+}
+
+.head {
+    font-size: xxx-large;
+}
+
+.left-landing p {
+    font-size: larger;
+    color: #a4afad;
+}
+
+.left-landing .yellow-button {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+    margin-top: 20px;
+}
