@@ -135,6 +135,7 @@ header {
 .left-landing p {
     font-size: larger;
     color: #a4afad;
+    line-height: 30px;
 }
 
 .left-landing .yellow-button {
@@ -164,6 +165,7 @@ header {
     padding-top: 20px;
     text-align: center;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .tagline {
@@ -214,4 +216,123 @@ header {
     font-size: larger;
     width: 85%;
     line-height: 30px;
+}
+
+
+.item-bottom img {
+    max-width: 90%;
+    height: auto;
+}
+
+.tag-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+
+.tag-line img {
+    max-width: 75px;
+    height: fit-content;
+}
+
+.tagline2 {
+    color:#0f2319;
+    font-size: xx-large;
+    font-family: Inter, sans-serif;
+    font-weight:normal;
+}
+
+.latam {
+    text-align: center;
+}
+
+.cta-one {
+    width: 75%;
+    background-color:#1a3732;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.cta-one h1 {
+    font-size: xxx-large;
+    border: 1px solid blue;
+}
+
+.cta-one p {
+    border: 1px solid red;
+    font-size: x-large;
+    color:#a4afad;
+    max-width: 75%;
+    line-height: 35px;
+}
+
+.cta-one button {
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.side-by-side {
+    display: flex;
+    flex-direction: flex;
+    justify-content: space-between;
+    border: 1px solid green;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.left-side {
+    width: 50%;
+    height: 100%;
+    border: 1px solid purple;
+}
+
+.left-side img {
+    max-width: 100%;
+    height: fit-content;
+    
+}
+
+.right-side {
+    width: 50%;
+    height: 100%;
+    border: 1px solid hotpink;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-side p {
+    width: 80%;
+    line-height: 30px;
+    font-size: larger;
+    color:#0f2319;
+}
+
+
+.section-three {
+    border: 1px solid red;
+    padding-bottom: 35px;
+}
+
+.latam {
+    border: 1px solid blue;
+}
+
+.tagline3 {
+    font-weight: bold;
+    color:#0f2319;
 }
