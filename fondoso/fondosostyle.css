@@ -117,7 +117,7 @@ main {
 .landing {
     background-color: #1a3732;
     color: white;
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     margin: 0;
     height: 770px;
@@ -149,7 +149,7 @@ main {
 }
 
 h1 {
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 500;
 }
 
@@ -167,7 +167,7 @@ header {
     font-size: larger;
     font-family: "Open Sans", sans-serif;
     color: #a4afad;
-    line-height: 30px;
+    line-height: 35px;
 }
 
 .left-landing .yellow-button {
@@ -203,7 +203,7 @@ header {
 .tagline {
     color:#0f2319;
     font-size: xxx-large;
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight:normal;
     padding-bottom: 50px;
 }
@@ -237,7 +237,7 @@ header {
 }
 
 .item h2, p, a {
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 .item h2 {
@@ -273,7 +273,7 @@ header {
 .tagline2 {
     color:#0f2319;
     font-size: xx-large;
-    font-family: Inter, sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight:normal;
 }
 

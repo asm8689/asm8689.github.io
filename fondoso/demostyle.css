@@ -1,0 +1,72 @@
+body {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: xxx-large;
+    color: #1a3732;
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.gallery-left {
+    width: 40%;
+    height: 700px;
+    border: 1px solid blue;
+}
+
+.gallery-right {
+    width: 55%;
+    height: 700px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+.item {
+    width: 100%;
+    background-color: #eff5f3;
+    border-radius: 15px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.left {
+    height: 100%;
+    text-align: center;
+}
+
+.right {
+    height: 48%;
+}
+
+.demo-img {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+
+.item h3 {
+    font-weight: 500;
+    font-size: x-large;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
