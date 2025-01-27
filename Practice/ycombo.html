@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apply to Y Combinator</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800">
+        <link href="ycombostyles.css" rel="stylesheet"/>
+        <link rel="shortcut icon" href="Y_Combinator_logo.svg" type="favicon/ico" />
+    </head>
+    <body>
+        <header>
+            <img class="inline logo left" src="Y_Combinator_logo.svg" alt="Y_Combinator_logo"/>
+            <div class="right">
+                <p class="inline right-item bold">asm8687</p>
+                <button class="orange-border-button inline right-item" type="submit">Log out</button>
+            </div>
+        </header>
+        <main>
+            <form action="https://register-demo.freecodecamp.org" method="post">
+                <h1>YC Application (Spring 2025)</h1>
+                <section class="content">
+                    <h2>Founders</h2>
+                    <hr>
+                    <div class="white-section rounded-section">
+                        <p class="inline-section bold white-section-piece">Aidan Marzeotti</p>
+                        <div class="error inline-section rounded-section white-section-piece">
+                            <p class="bold">Profile incomplete</p>
+                        </div>
+                        <button class="inline-section orange-border-button rounded-section white-section-piece">Complete my profile >> </button>
+                    </div>
+                    <button class="orange-fill-button rounded-section">+Add a co-founder</button>
+                    <fieldset>
+                        <label for="technical-founder" class="bold block-display">Who writes code, or does other technical work on your product? Was any of it done by a non-founder? Please explain.
+                        </label>
+                        <textarea id="technical-founder" rows="4"></textarea>
+                        <label for="co-founder" class="bold block-display">Are you looking for a cofounder?
+                        </label>
+                        <textarea id="co-founder" rows="4"></textarea>
+                    </fieldset>
+                </section>
+                <section class="content">
+                    <h2>Founder Video</h2>
+                    <hr>
+                    <fieldset>
+                        <label for="founder-video" class="bold block-display">Please record a one minute video introducing the founder(s).<p class="red inline">*</p></label>
+                        <p>Make sure the file does not exceed 100 MB. Read more about the video <a href="https://www.ycombinator.com/video" target="_blank">here</a>.</p>
+                        <input type="file" id="founder-video" class="block-display file-input">
+                    </fieldset>
+                </section>
+                <section class="content">
+                    <h2>Company</h2>
+                    <hr>
+                    <fieldset>
+                        <label for="company-name" class="bold block-display">Company name<p class="red inline">*</p>
+                        </label>
+                        <input type="text" id="company-name" class="block-display"/>
+                        <label for="company-description" class="bold block-display">Describe what your company does in 50 characters or less.<p class="red inline">*</p>
+                        </label>
+                        <input type="text" id="company-description" class="block-display"/>
+                        <label for="company-url" class="bold block-display">Company URL, if any
+                        </label>
+                        <input type="url" id="company-url" class="block-display" placeholder="https://"/>
+                        <label for="demo-video" class="bold block-display">If you have a demo, attach it below.<p class="red inline">*</p></label>
+                        <p>Anything that shows us how the product works. Please limit to 3 minutes / 100 MB.</p>
+                        <input type="file" id="demo-video" class="block-display file-input">
+                        <p></p>
+                        <label for="product-url" class="bold block-display">Please provide a link to the product, if any
+                        </label>
+                        <input type="url" id="product-url" class="block-display" placeholder="https://"/>
+                        <label for="login-credentials" class="block-display">If login credentials are required for the link above, enter them here.
+                        </label>
+                        <input type="text" id="login-credentials" class="block-display" placeholder="username / password"/>
+                        <label for="product-description" class="bold block-display">What is your company going to make? Please describe your product and what it does or will do.
+                        </label>
+                        <textarea id="product-description" rows="4"></textarea>
+                        <label for="location" class="bold block-display">Where do you live now, and where would the company be based after YC?</label>
+                        <p>Use the format City A, Country A / City B, Country B</p>
+                        <input type="text" id="location"/>
+                        <label for="location-reasion" class="bold block-display">Explain your decision regarding location.
+                        </label>
+                        <textarea id="location-reason" rows="4"></textarea>
+                    </fieldset>
+                </section>
+                <section class="content">
+                    <h2>Progress</h2>
+                    <hr>
+                    <fieldset>
+                        <label for="far-along" class="bold block-display">How far along are you?
+                        </label>
+                        <textarea id="far-along" rows="4"></textarea>
+                        <label for="time-spent" class="bold block-display">How long have each of you been working on this? How much of that has been full-time? Please explain.
+                        </label>
+                        <textarea id="time-spent" rows="4"></textarea>
+                        <label for="tech-stack" class="bold block-display">What tech stack are you using, or planning to use, to build this product?
+                        </label>
+                        <textarea id="tech-stack" rows="4"></textarea>
+                        <p></p>
+                        <div class="radio-section">
+                            <p class="bold">Are people using your product?</p>
+                            <input type="radio" name="using" value="1">Yes
+                            <input type="radio" name="using" value="0">No
+                        </div>
+                        <div class="radio-section">
+                            <p class="bold">Do you have revenue?</p>
+                            <input type="radio" name="revenue" value="1">Yes
+                            <input type="radio" name="revenue" value="0">No
+                        </div>
+                        <label for="previous-batch" class="bold block-display">If you are applying with the same idea as a previous batch, did anything change? If you applied with a different idea, why did you pivot and what did you learn from the last idea?
+                        </label>
+                        <textarea id="previous-batch" rows="4"></textarea>
+                        <label for="accelerator" class="bold block-display">If you have already participated or committed to participate in an incubator, "accelerator" or "pre-accelerator" program, please tell us about it.</label>
+                        <textarea id="accelerator" rows="4"></textarea>
+                    </fieldset>
+                </section>
+                <section class="content">
+                    <h2>Idea</h2>
+                    <hr>
+                    <fieldset>
+                        <label for="why" class="bold block-display">Why did you pick this idea to work on? Do you have domain expertise in this area? How do you know people need what you're making?</label>
+                        <textarea id="why" rows="4"></textarea>
+                        <label for="competitors" class="bold block-display">
+                            Who are your competitors? What do you understand about your business that they don't?</label>
+                        <textarea id="competitors" rows="4"></textarea>
+                        <label for="money" class="bold block-display">How do or will you make money? How much could you make?</label>
+                        <p>(We realize you can't know precisely, but give your best estimate)</p>
+                        <textarea id="money" rows="4"></textarea>
+                        <label for="industry" class="bold block-display">Which category best applies to your company?</label>
+                        <select id="industry" class="block-display">  
+                            <option value=""></option>
+                            <option value="adtech">Adtech</option>
+                            <option value="aerospace">Aerospace</option>
+                            <option value="agriculture">Agriculture</option>
+                            <option value="analytics">Analytics</option>
+                            <option value="b2bsaas">B2B SaaS</option>
+                            <option value="biotech">Biotech</option>
+                            <option value="climate">Climate</option>
+                            <option value="community">Community</option>
+                            <option value="construction">Construction</option>
+                            <option value="coned">Continuing Education</option>
+                            <option value="crypto">Crypto / Blockchain</option>
+                            <option value="devtools">Developer Tools</option>
+                            <option value="k12">K-12</option>
+                            <option value="energy">Energy</option>
+                            <option value="entertainment">Entertainment</option>
+                            <option value="finserv">Financial Services</option>
+                            <option value="fitness">Fitness</option>
+                            <option value="foodbev">Food/Beverage</option>
+                            <option value="freight">Freight</option>
+                            <option value="gaming">Gaming</option>
+                            <option value="gov">Government</option>
+                            <option value="hardtech">Hard Tech</option>
+                            <option value="hardware">Hardware</option>
+                            <option value="healthcare">Healthcare</option>
+                            <option value="insurance">Insurance</option>
+                            <option value="language">Language Learning</option>
+                            <option value="lending">Lending/Loan Management</option>
+                            <option value="marketplace">Marketplace</option>
+                            <option value="media">Media</option>
+                            <option value="medical">Medical Devices</option>
+                            <option value="mentalhealth">Mental Health</option>
+                            <option value="personalfinance">Personal Finance</option>
+                            <option value="re">Real Estate</option>
+                            <option value="retail">Retail</option>
+                            <option value="recruiting">Recruiting</option>
+                            <option value="robotics">Robotics</option>
+                            <option value="sales">Sales Enablement</option>
+                            <option value="security">Security</option>
+                            <option value="transportation">Transportation</option>
+                            <option value="travel">Travel/Tourism</option>
+                            <option value="vr">Virtual Reality / AR</option>
+                            <option value="Wellness">Wellness</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="competitors" class="bold block-display">
+                            If you had any other ideas you considered applying with, please list them. One may be something we've been waiting for. Often when we fund people it's to do something they list here and not in the main application.</label>
+                        <textarea id="competitors" rows="4"></textarea>
+                    </fieldset>
+                </section>
+                <section class="content">
+                    <h2>Equity</h2>
+                    <hr>
+                    <fieldset>
+                        <div class="radio-section">
+                            <p class="bold block-display">Have you formed ANY legal entity yet?</p>
+                            <p>This may be in the US, in your home country or in another country.</p>
+                            <input type="radio" name="legal" value="1">Yes
+                            <input type="radio" name="legal" value="0">No
+                        </div>
+                       <div class="radio-section">
+                        <p class="bold block-display">Have you taken any investment yet?</p>
+                        <input type="radio" name="prior-investment" value="1">Yes
+                        <input type="radio" name="prior-investment" value="0">No
+                       </div>
+                       <div class="radio-section">
+                        <p class="bold block-display">Are you currently fundraising?</p>
+                        <input type="radio" name="fundraising" value="1">Yes
+                        <input type="radio" name="fundraising" value="0">No
+                    </div>
+                    </fieldset>
+                </section>
+                <section class="content">
+                    <h2>Curious</h2>
+                    <hr>
+                    <label for="why-yc" class="bold block-display">What convinced you to apply to Y Combinator? Did someone encourage you to apply? Have you been to any YC events?</label>
+                    <textarea id="why-yc" rows="4"></textarea>
+                    <label for="referral" class="bold block-display">How did you hear about Y Combinator?</label>
+                    <textarea id="referral" rows="4"></textarea>
+                </section>
+                <div>
+                    <button class="orange-border-button rounded-section">Back</button>
+                    <div class="right">
+
+                    </div>
+                    <button class="orange-border-button rounded-section">Save for later</button>
+                    <input class="orange-fill-button rounded-section" type="submit" value="Submit">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <img class="inline logo left vertical-center" src="Y_Combinator_logo.svg" alt="Y_Combinator_logo"/>
+            <a href="https://www.ycombinator.com/about/" target="_blank" style="text-decoration:none" class="footer-link">About</a>
+            <a href="https://www.ycombinator.com/people/" target="_blank" style="text-decoration:none" class="footer-link">People</a>
+            <a href="https://www.ycombinator.com/blog/" target="_blank" style="text-decoration:none" class="footer-link">Blog</a>
+            <a href="https://www.ycombinator.com/library" target="_blank" style="text-decoration:none" class="footer-link">Resources</a>
+            <a href="https://www.ycombinator.com/legal/" target="_blank" style="text-decoration:none" class="footer-link">Legal</a>
+            <a href="https://www.ycombinator.com/contact/" target="_blank" style="text-decoration:none" class="footer-link">Contact</a>
+        </footer>
+    </body>
+</html>
