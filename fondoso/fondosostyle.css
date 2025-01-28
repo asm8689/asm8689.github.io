@@ -43,7 +43,7 @@
 }
 
 .header.change-color {
-    color: #1a3732;
+    color: #1a3732 !important;
 }
 
 .header img {
@@ -165,7 +165,7 @@ header {
 
 .left-landing p {
     font-size: larger;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     color: #a4afad;
     line-height: 35px;
 }
@@ -305,7 +305,7 @@ header {
 
 .cta-one p {
     font-size: x-large;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     color:#a4afad;
     max-width: 75%;
     line-height: 35px;
@@ -357,7 +357,7 @@ header {
     width: 80%;
     line-height: 45px;
     font-size: x-large;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
     color:#0f2319;
 }
 

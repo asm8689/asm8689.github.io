@@ -13,13 +13,13 @@
         <header class="header" id="header">
             <div class="left-header">
                 <img src="fondoso_icon_white.png" alt="fondoso icon white">
-                <h1 class="logo white">fondoso</h1>
+                <h1 class="h logo white">fondoso</h1>
             </div>
             <div class="right-header">
-                <button class="header-button">Productos</button>
-                <button class="header-button">Recursos</button>
-                <button class="header-button">Precios</button>
-                <p><a href="google.com">Iniciar Sesión</a></p>
+                <button class="h header-button">Productos</button>
+                <button class="h header-button">Recursos</button>
+                <button class="h header-button">Precios</button>
+                <p><a class="h" href="google.com">Iniciar Sesión</a></p>
                 <button class="yellow-button">Hablar con nosotros</button>
             </div>
         </header>
@@ -37,7 +37,7 @@
             <div class="divider">
                 <p>💰 Regístrate antes del 1 de marzo y recibe un 50% de descuento en tu suscripción anual - > </p>
             </div>
-            <div class="section-two">
+            <div class="section-two" id="section-two">
                 <h1 class="tagline">Todo lo que necesitas <br>para lanzar, recaudar y crecer</h1>
                 <div class="gallery">
                     <div class="item">
@@ -136,7 +136,7 @@
         </footer>
         <script>
             const header = document.getElementById('header');
-            const nextSection = document.querySelector('.landing');
+            const nextSection = document.querySelector('.section-two');
 
             window.addEventListener('scroll', () => {
                 if (window.scrollY > 150) {
