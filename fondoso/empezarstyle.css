@@ -163,3 +163,30 @@ input {
     display: block; /* Ensures the wrapper behaves like a block element */
   }
   
+  .bottom-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.bottom-righty img {
+    max-height: 100%;
+    width:auto;
+    display: flex;
+    margin-left: auto;
+}
+
+.bottom-righty {
+    width: 50%;
+    height: 100%;
+}
+
+.bottom-lefty {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 25px;
+}
